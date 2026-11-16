@@ -1,0 +1,43 @@
+{
+  "seed": 719,
+  "epochs": 40,
+  "batch_size": 256,
+  "latent": 16,
+  "per_channel_PCA": 24,
+  "selection": "validation group-macro AP averaged over all nonempty channel subsets",
+  "calibration": "Platt scaling on independent calibration-control wells for each subset",
+  "bootstrap": "1000 group resamples, cells and mask views nested",
+  "TNBC_marker": "Cy3 spotfeatures_count >19 MDA231; >21 MDA468",
+  "TNBC_inputs": [
+    "DAPI239",
+    "Cy5_tubulin239"
+  ],
+  "BBBC013_marker": "log GFP nuclear/ring ratio > reference95th percentile",
+  "BBBC013_inputs": [
+    "DRAQ_DNA morphology only"
+  ],
+  "test_tuning": false,
+  "baselines": [
+    "logistic",
+    "linear",
+    "gradient_boosting",
+    "random_forest",
+    "MLP",
+    "class_balanced",
+    "metric_learning",
+    "prototype",
+    "group_DRO",
+    "masked_MLP",
+    "marker_regression"
+  ],
+  "candidates": [
+    "MMSL",
+    "no_mask",
+    "no_prototypes",
+    "no_consistency",
+    "no_lattice"
+  ],
+  "alternative": "marker-count/ratio distribution tail model if MMSL validation does not beat strongest baseline",
+  "alternative_trigger": "MMSL fails validation baseline or lattice ablation is no worse",
+  "pretest_addendum": "Continuous-marker regression added to match supervision of distribution-tail alternative."
+}

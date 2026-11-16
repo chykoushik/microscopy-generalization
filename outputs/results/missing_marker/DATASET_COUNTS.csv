@@ -1,0 +1,6 @@
+dataset,role,wells,cells,marker_high,groups
+TNBC,reference,20,1347,59,20
+TNBC,train,36,2178,101,24
+TNBC,validation,21,1121,48,16
+TNBC,calibration,8,746,19,8
+TNBC,test,46,3058,128,31

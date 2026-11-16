@@ -1,0 +1,27 @@
+{
+  "seeds": [
+    719,
+    1729,
+    2719
+  ],
+  "conditions": [
+    "clean",
+    "blur_1",
+    "blur_2",
+    "dropout_1",
+    "dropout_2",
+    "saturation_1",
+    "saturation_2",
+    "occlusion_1",
+    "occlusion_2",
+    "boundary_1",
+    "boundary_2"
+  ],
+  "epochs": 30,
+  "lambda_stability": 0.5,
+  "learning_rate": 0.003,
+  "hidden": 16,
+  "primary": "mean corrupted macro-well AP; clean harm separately",
+  "device": "CPU: tiny fixed-feature heads; no encoder",
+  "selection": "validation mean across predefined corruptions; no test selection"
+}

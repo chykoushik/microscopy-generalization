@@ -1,0 +1,6 @@
+dataset,cells,wells,plates,evaluation_unit,qualification,source,record
+TNBC gammaH2AX spot target,8450,131,2,Well/drug-control groups,46test wells;41mixed-state;not biological preparations,outputs/results/missing_marker/DATASET_COUNTS.csv,TNBC all roles
+NF reconstruction crops,1971,92,4,Well; uncertainty clustered by saved group,21test wells/400crops;12held-line wells/288crops,outputs/results/fluorescence_reconstruction/CONFIG.json,assays/NF
+Gamma intensity corruption crops,1646,71,2,Well; seeds/corruptions nested,"Derived subset,not additive;25test wells/600crops",outputs/results/corruption_robustness/11_REPRODUCIBILITY_MANIFEST.json,$
+JUMP source_1,38251,238,3,Well; constructed donor/background pair,1200TIFFs;18mixture pairs;43eligible controls,outputs/results/jump_experiment_v1/wells.csv,status=ok
+NViR ATP,NA,241,UNKNOWN,Well;6study macro average,194/241retained atceil80%;studies are not plates,outputs/results/atp_source_selection/results.json,metrics and protocols

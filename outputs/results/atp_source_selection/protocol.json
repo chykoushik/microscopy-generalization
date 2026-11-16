@@ -1,0 +1,38 @@
+{
+  "representation": "A_raw frozen ResNet18 source-box features and signed ATP nM predictions",
+  "coverage_grid": [
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "primary_coverage": 0.8,
+  "budget": "ceil(coverage * study_candidates), identically for every selective method",
+  "protocol_A": "Historical frozen per-study ceil coverage; 194 of 241 at 0.8",
+  "protocol_B": "Deployable per-study batch selector with the identical ceil rule; numerically identical to A",
+  "risk_evidence": "Reuse historical audited strict group-nested OOF residuals and outer-training-selected k/bandwidth",
+  "counterfactual": "Remove each outer-training source from residual evidence and refit kernel normalization/bandwidth on remaining evidence; retain existing OOF residual values, not ATP predictor deletion/refitting",
+  "fallback": "If fewer than two remaining sources or rows, remaining residual mean; original outer-training mean only when none remain",
+  "objective": "minimize maximum source-omission mean estimated error of jointly selected K wells",
+  "solver": "scipy.optimize.milp / HiGHS, sparse constraints, one thread, mip_rel_gap 0",
+  "solver_seconds_per_selection": 60.0,
+  "absolute_tie_tolerance_nM": 0.0001,
+  "relative_tie_tolerance": 1e-09,
+  "tie_rule": "Lexicographically prefer inclusion by SHA256(2301|well_id); primary cap uses half the declared tolerance as numerical margin",
+  "approximate_fallback": false,
+  "controls": [
+    "full",
+    "support_distance",
+    "estimated_risk",
+    "nearest_distance",
+    "balanced_kernel",
+    "domain_aware",
+    "source_max",
+    "source_mean",
+    "source_q90",
+    "joint_SRSO"
+  ],
+  "tuning": "None on outer outcomes; all six repeatedly examined studies remain exploratory",
+  "independence": "Technical acquisition studies, not verified independent biological preparations"
+}

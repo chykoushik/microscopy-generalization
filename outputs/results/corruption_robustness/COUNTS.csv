@@ -1,0 +1,5 @@
+role,cells,wells,positives
+ood_test,452,19,114
+test,600,25,58
+train,374,17,28
+validation,220,10,13

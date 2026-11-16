@@ -1,0 +1,132 @@
+dataset,well,role,context,treatment,group,cells,positives,cutoff,input_channels,provenance
+TNBC,MDA231:A01,reference,MDA231,DMSO,MDA231:A01,169,5,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A01_01.ch5
+TNBC,MDA231:A03,calibration,MDA231,DMSO,MDA231:A03,117,0,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A03_01.ch5
+TNBC,MDA231:A04,train,MDA231,DMSO,MDA231:A04,85,5,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A04_01.ch5
+TNBC,MDA231:A05,test,MDA231,DMSO,MDA231:A05,84,4,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A05_01.ch5
+TNBC,MDA231:A06,calibration,MDA231,DMSO,MDA231:A06,112,0,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A06_01.ch5
+TNBC,MDA231:A07,reference,MDA231,DMSO,MDA231:A07,73,5,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A07_01.ch5
+TNBC,MDA231:A08,test,MDA231,DMSO,MDA231:A08,42,2,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A08_01.ch5
+TNBC,MDA231:A09,reference,MDA231,DMSO,MDA231:A09,66,2,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A09_01.ch5
+TNBC,MDA231:A10,test,MDA231,DMSO,MDA231:A10,100,3,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A10_01.ch5
+TNBC,MDA231:A11,train,MDA231,DMSO,MDA231:A11,100,4,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A11_01.ch5
+TNBC,MDA231:A12,test,MDA231,DMSO,MDA231:A12,47,1,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A12_01.ch5
+TNBC,MDA231:A13,test,MDA231,DMSO,MDA231:A13,113,2,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A13_01.ch5
+TNBC,MDA231:A14,train,MDA231,DMSO,MDA231:A14,79,4,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A14_01.ch5
+TNBC,MDA231:A15,reference,MDA231,DMSO,MDA231:A15,86,3,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A15_01.ch5
+TNBC,MDA231:A16,reference,MDA231,DMSO,MDA231:A16,76,7,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A16_01.ch5
+TNBC,MDA231:A17,test,MDA231,DMSO,MDA231:A17,94,2,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A17_01.ch5
+TNBC,MDA231:A18,train,MDA231,DMSO,MDA231:A18,89,2,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A18_01.ch5
+TNBC,MDA231:A19,calibration,MDA231,DMSO,MDA231:A19,122,2,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A19_01.ch5
+TNBC,MDA231:A20,test,MDA231,DMSO,MDA231:A20,105,8,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A20_01.ch5
+TNBC,MDA231:A21,validation,MDA231,DMSO,MDA231:A21,54,0,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A21_01.ch5
+TNBC,MDA231:A22,test,MDA231,DMSO,MDA231:A22,103,2,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A22_01.ch5
+TNBC,MDA231:A23,validation,MDA231,DMSO,MDA231:A23,49,1,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A23_01.ch5
+TNBC,MDA231:A24,reference,MDA231,DMSO,MDA231:A24,59,1,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/A24_01.ch5
+TNBC,MDA231:B17,train,MDA231,CA-074-Me,CA-074-Me,14,6,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/B17_01.ch5
+TNBC,MDA231:B21,validation,MDA231,Pepstatin A,Pepstatin A,91,4,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/B21_01.ch5
+TNBC,MDA231:C01,test,MDA231,PD-98059,PD-98059,141,3,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/C01_01.ch5
+TNBC,MDA231:C03,test,MDA231,U-0126,U-0126,61,4,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/C03_01.ch5
+TNBC,MDA231:C09,test,MDA231,H-9,H-9,65,3,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/C09_01.ch5
+TNBC,MDA231:C10,test,MDA231,L-p-Bromotetramisole oxalate,L-p-Bromotetramisole oxalate,79,3,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/C10_01.ch5
+TNBC,MDA231:C15,test,MDA231,AG-825,AG-825,84,0,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/C15_01.ch5
+TNBC,MDA231:C17,test,MDA231,Lavendustin A,Lavendustin A,88,2,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/C17_01.ch5
+TNBC,MDA231:D03,train,MDA231,CL-82198,CL-82198,90,1,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/D03_01.ch5
+TNBC,MDA231:D19,train,MDA231,Bestatin (Ubenimex),Bestatin (Ubenimex),57,0,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/D19_01.ch5
+TNBC,MDA231:D23,validation,MDA231,Captopril,Captopril,82,1,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/D23_01.ch5
+TNBC,MDA231:E03,train,MDA231,Tyrphostin 47,Tyrphostin 47,101,0,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/E03_01.ch5
+TNBC,MDA231:E11,validation,MDA231,Tyrphostin AG 1478,Tyrphostin AG 1478,27,1,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/E11_01.ch5
+TNBC,MDA231:E16,test,MDA231,Cyclosporin A,Cyclosporin A,78,3,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/E16_01.ch5
+TNBC,MDA231:E17,test,MDA231,HNMPA (Hydroxy-2-naphthalenylmethylphosphonic acid),HNMPA (Hydroxy-2-naphthalenylmethylphosphonic acid),86,5,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/E17_01.ch5
+TNBC,MDA231:E23,train,MDA231,PP1,PP1,15,2,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/E23_01.ch5
+TNBC,MDA231:F19,test,MDA231,5-nitroisatin,5-nitroisatin,51,1,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/F19_01.ch5
+TNBC,MDA231:G09,test,MDA231,LY 294002,LY 294002,48,0,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/G09_01.ch5
+TNBC,MDA231:G11,train,MDA231,Wortmannin,Wortmannin,36,2,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/G11_01.ch5
+TNBC,MDA231:G14,test,MDA231,OBA Ester,OBA Ester,84,1,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/G14_01.ch5
+TNBC,MDA231:H03,test,MDA231,Dec-RVKR-CMK,Dec-RVKR-CMK,71,2,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/H03_01.ch5
+TNBC,MDA231:H07,train,MDA231,Z-FA-FMK,Z-FA-FMK,62,0,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/H07_01.ch5
+TNBC,MDA231:H17,train,MDA231,URB-597,URB-597,92,0,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/H17_01.ch5
+TNBC,MDA231:H19,train,MDA231,"4-Amino-D, L-benzylsuccinic acid","4-Amino-D, L-benzylsuccinic acid",83,5,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/H19_01.ch5
+TNBC,MDA231:I07,validation,MDA231,KN-62,KN-62,15,0,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/I07_01.ch5
+TNBC,MDA231:J03,train,MDA231,Lisinopril,Lisinopril,107,1,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/J03_01.ch5
+TNBC,MDA231:J05,test,MDA231,Enalapril,Enalapril,66,3,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/J05_01.ch5
+TNBC,MDA231:J09,train,MDA231,PKSI-527,PKSI-527,97,3,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/J09_01.ch5
+TNBC,MDA231:K01,validation,MDA231,5-Iodotubercidin,5-Iodotubercidin,2,1,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/K01_01.ch5
+TNBC,MDA231:K21,validation,MDA231,Genistein,Genistein,29,2,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/K21_01.ch5
+TNBC,MDA231:M21,train,MDA231,Y-27632,Y-27632,3,0,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/M21_01.ch5
+TNBC,MDA231:O05,test,MDA231,BML-257,BML-257,85,3,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/O05_01.ch5
+TNBC,MDA231:O11,test,MDA231,Apigenin,Apigenin,57,7,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/O11_01.ch5
+TNBC,MDA231:O13,test,MDA231,BML-265 (Erlotinib analog),BML-265 (Erlotinib analog),1,0,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/O13_01.ch5
+TNBC,MDA231:P01,reference,MDA231,DMSO,MDA231:P01,128,5,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/P01_01.ch5
+TNBC,MDA231:P03,reference,MDA231,DMSO,MDA231:P03,74,2,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/P03_01.ch5
+TNBC,MDA231:P05,calibration,MDA231,DMSO,MDA231:P05,147,2,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/P05_01.ch5
+TNBC,MDA231:P07,validation,MDA231,DMSO,MDA231:P07,54,3,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/P07_02.ch5
+TNBC,MDA231:P09,train,MDA231,DMSO,MDA231:P09,70,0,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/P09_01.ch5
+TNBC,MDA231:P11,reference,MDA231,DMSO,MDA231:P11,66,1,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/P11_01.ch5
+TNBC,MDA231:P13,reference,MDA231,DMSO,MDA231:P13,31,4,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/P13_01.ch5
+TNBC,MDA231:P15,train,MDA231,DMSO,MDA231:P15,74,1,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/P15_01.ch5
+TNBC,MDA231:P17,test,MDA231,DMSO,MDA231:P17,85,4,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/P17_01.ch5
+TNBC,MDA231:P19,test,MDA231,DMSO,MDA231:P19,55,2,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/P19_01.ch5
+TNBC,MDA231:P21,validation,MDA231,DMSO,MDA231:P21,33,0,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/P21_01.ch5
+TNBC,MDA231:P23,validation,MDA231,DMSO,MDA231:P23,22,0,19.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA231/P23_01.ch5
+TNBC,MDA468:A01,test,MDA468,DMSO,MDA468:A01,101,2,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A01_01.ch5
+TNBC,MDA468:A03,calibration,MDA468,DMSO,MDA468:A03,80,7,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A03_01.ch5
+TNBC,MDA468:A04,validation,MDA468,DMSO,MDA468:A04,120,1,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A04_01.ch5
+TNBC,MDA468:A05,reference,MDA468,DMSO,MDA468:A05,39,0,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A05_01.ch5
+TNBC,MDA468:A06,test,MDA468,DMSO,MDA468:A06,77,3,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A06_01.ch5
+TNBC,MDA468:A08,train,MDA468,DMSO,MDA468:A08,37,4,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A08_01.ch5
+TNBC,MDA468:A11,reference,MDA468,DMSO,MDA468:A11,70,3,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A11_01.ch5
+TNBC,MDA468:A12,reference,MDA468,DMSO,MDA468:A12,91,3,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A12_01.ch5
+TNBC,MDA468:A14,reference,MDA468,DMSO,MDA468:A14,60,6,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A14_01.ch5
+TNBC,MDA468:A15,train,MDA468,DMSO,MDA468:A15,26,0,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A15_01.ch5
+TNBC,MDA468:A16,reference,MDA468,DMSO,MDA468:A16,60,3,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A16_01.ch5
+TNBC,MDA468:A17,test,MDA468,DMSO,MDA468:A17,83,1,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A17_01.ch5
+TNBC,MDA468:A18,calibration,MDA468,DMSO,MDA468:A18,78,5,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A18_01.ch5
+TNBC,MDA468:A19,reference,MDA468,DMSO,MDA468:A19,64,1,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A19_01.ch5
+TNBC,MDA468:A20,test,MDA468,DMSO,MDA468:A20,60,4,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A20_01.ch5
+TNBC,MDA468:A21,train,MDA468,DMSO,MDA468:A21,71,2,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A21_01.ch5
+TNBC,MDA468:A22,reference,MDA468,DMSO,MDA468:A22,19,2,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A22_01.ch5
+TNBC,MDA468:A23,validation,MDA468,DMSO,MDA468:A23,48,0,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A23_01.ch5
+TNBC,MDA468:A24,validation,MDA468,DMSO,MDA468:A24,78,4,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/A24_01.ch5
+TNBC,MDA468:B17,train,MDA468,CA-074-Me,CA-074-Me,7,0,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/B17_01.ch5
+TNBC,MDA468:B21,validation,MDA468,Pepstatin A,Pepstatin A,72,1,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/B21_01.ch5
+TNBC,MDA468:C01,test,MDA468,PD-98059,PD-98059,44,3,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/C01_01.ch5
+TNBC,MDA468:C03,test,MDA468,U-0126,U-0126,40,2,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/C03_01.ch5
+TNBC,MDA468:C09,test,MDA468,H-9,H-9,54,1,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/C09_01.ch5
+TNBC,MDA468:C10,test,MDA468,L-p-Bromotetramisole oxalate,L-p-Bromotetramisole oxalate,46,0,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/C10_01.ch5
+TNBC,MDA468:C15,test,MDA468,AG-825,AG-825,45,7,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/C15_01.ch5
+TNBC,MDA468:C17,test,MDA468,Lavendustin A,Lavendustin A,32,2,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/C17_01.ch5
+TNBC,MDA468:D03,train,MDA468,CL-82198,CL-82198,50,3,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/D03_01.ch5
+TNBC,MDA468:D19,train,MDA468,Bestatin (Ubenimex),Bestatin (Ubenimex),21,2,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/D19_01.ch5
+TNBC,MDA468:D23,validation,MDA468,Captopril,Captopril,88,9,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/D23_01.ch5
+TNBC,MDA468:E03,train,MDA468,Tyrphostin 47,Tyrphostin 47,47,3,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/E03_01.ch5
+TNBC,MDA468:E11,validation,MDA468,Tyrphostin AG 1478,Tyrphostin AG 1478,40,1,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/E11_01.ch5
+TNBC,MDA468:E16,test,MDA468,Cyclosporin A,Cyclosporin A,49,1,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/E16_01.ch5
+TNBC,MDA468:E17,test,MDA468,HNMPA (Hydroxy-2-naphthalenylmethylphosphonic acid),HNMPA (Hydroxy-2-naphthalenylmethylphosphonic acid),61,7,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/E17_01.ch5
+TNBC,MDA468:E23,train,MDA468,PP1,PP1,32,2,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/E23_01.ch5
+TNBC,MDA468:F19,test,MDA468,5-nitroisatin,5-nitroisatin,68,5,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/F19_01.ch5
+TNBC,MDA468:G09,test,MDA468,LY 294002,LY 294002,35,1,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/G09_01.ch5
+TNBC,MDA468:G11,train,MDA468,Wortmannin,Wortmannin,21,2,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/G11_01.ch5
+TNBC,MDA468:G14,test,MDA468,OBA Ester,OBA Ester,72,1,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/G14_01.ch5
+TNBC,MDA468:H03,test,MDA468,Dec-RVKR-CMK,Dec-RVKR-CMK,61,7,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/H03_01.ch5
+TNBC,MDA468:H07,train,MDA468,Z-FA-FMK,Z-FA-FMK,67,8,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/H07_01.ch5
+TNBC,MDA468:H17,train,MDA468,URB-597,URB-597,67,8,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/H17_01.ch5
+TNBC,MDA468:H19,train,MDA468,"4-Amino-D, L-benzylsuccinic acid","4-Amino-D, L-benzylsuccinic acid",66,5,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/H19_01.ch5
+TNBC,MDA468:I07,validation,MDA468,KN-62,KN-62,48,4,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/I07_01.ch5
+TNBC,MDA468:J03,train,MDA468,Lisinopril,Lisinopril,42,1,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/J03_01.ch5
+TNBC,MDA468:J09,train,MDA468,PKSI-527,PKSI-527,73,5,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/J09_01.ch5
+TNBC,MDA468:K21,validation,MDA468,Genistein,Genistein,69,7,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/K21_01.ch5
+TNBC,MDA468:M21,train,MDA468,Y-27632,Y-27632,96,8,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/M21_01.ch5
+TNBC,MDA468:O05,test,MDA468,BML-257,BML-257,57,3,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/O05_01.ch5
+TNBC,MDA468:O11,test,MDA468,Apigenin,Apigenin,23,3,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/O11_01.ch5
+TNBC,MDA468:O13,test,MDA468,BML-265 (Erlotinib analog),BML-265 (Erlotinib analog),1,0,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/O13_01.ch5
+TNBC,MDA468:P01,reference,MDA468,DMSO,MDA468:P01,25,0,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/P01_01.ch5
+TNBC,MDA468:P03,reference,MDA468,DMSO,MDA468:P03,69,5,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/P03_01.ch5
+TNBC,MDA468:P05,validation,MDA468,DMSO,MDA468:P05,56,4,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/P05_01.ch5
+TNBC,MDA468:P07,calibration,MDA468,DMSO,MDA468:P07,67,2,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/P07_01.ch5
+TNBC,MDA468:P11,validation,MDA468,DMSO,MDA468:P11,44,4,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/P11_01.ch5
+TNBC,MDA468:P13,train,MDA468,DMSO,MDA468:P13,41,0,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/P13_01.ch5
+TNBC,MDA468:P15,train,MDA468,DMSO,MDA468:P15,81,5,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/P15_01.ch5
+TNBC,MDA468:P17,calibration,MDA468,DMSO,MDA468:P17,23,1,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/P17_01.ch5
+TNBC,MDA468:P19,test,MDA468,DMSO,MDA468:P19,76,5,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/P19_01.ch5
+TNBC,MDA468:P21,train,MDA468,DMSO,MDA468:P21,79,7,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/P21_01.ch5
+TNBC,MDA468:P23,reference,MDA468,DMSO,MDA468:P23,22,1,21.0,DAPI;Cy5_tubulin,.cache/downloads/tnbc_source/tnbc_cells/MDA468/P23_01.ch5

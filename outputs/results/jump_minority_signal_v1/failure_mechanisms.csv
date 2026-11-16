@@ -1,0 +1,7 @@
+mechanism,result
+Separable cell states,"Primary-region AUROC by plate: [('UL000081', 1.0), ('UL000087', 1.0), ('UL001641', 0.6666666666666666)]; donor occupancy exceeds background in 17/18 pairs."
+Control variability,"Heldout control occupancy SD ranges 0.00559 to 0.05955; means range 0.00407 to 0.08554. Median analytic threshold-crossing fraction 0.0796; IQR 0.0514-0.1570, among 17 pairs with positive donor-minus-background occupancy; one negative crossing mass is already flagged at zero."
+Plate shifts,"Nondevelopment reference shift norms 10.186-13.513; reference-only centering gives 16/18 weighted 25% flags and 3/43 null flags, versus raw 16/18 and 4/43."
+Cell sampling,"Integer 25% local flag rate rises 0.8000 to 0.8417; repeat-rate SD falls 0.0707 to 0.0326. At 1%, 32 cells inject zero; 100 cells inject one, with rate 0.1306 versus 0.0694 at zero."
+Region instability,"Leave-one-discovery-well-out primary membership Jaccard [0.5833, 1.0, 1.0, 1.0]; held-out discovery-well enrichment [0.3132, 0.7048, 0.8159, 0.8077]. Four discovery treated wells limit selection precision."
+Threshold limitations,"100-cell primary-region null flags at empirical 80/90/95th percentile: [('0.8', 9, 43), ('0.9', 6, 43), ('0.95', 4, 43)]; integer 25% rates [0.8917, 0.8889, 0.8417]. All methods share thresholds by calibration percentile, but their observed null rates differ; no comparison is power at proven equal false-positive error."

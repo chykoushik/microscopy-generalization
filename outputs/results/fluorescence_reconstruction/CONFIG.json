@@ -1,0 +1,53 @@
+{
+  "seed": 200,
+  "crop_size": 64,
+  "max_cells_per_field": 24,
+  "assays": [
+    {
+      "assay": "NF",
+      "marker_scale": 6446.466000000015,
+      "state_cutoff": 0.7172839756746299,
+      "held_context": "SUM159PT",
+      "fields": 92,
+      "cells": 1971,
+      "role_cells": {
+        "train": 971,
+        "validation": 312,
+        "test": 400,
+        "ood_test": 288
+      },
+      "role_wells": {
+        "train": 44,
+        "validation": 15,
+        "test": 21,
+        "ood_test": 12
+      }
+    },
+    {
+      "assay": "GAMMA",
+      "marker_scale": 255.0,
+      "state_cutoff": 0.08792503073405321,
+      "held_context": "MDA468",
+      "fields": 71,
+      "cells": 1646,
+      "role_cells": {
+        "train": 374,
+        "validation": 220,
+        "test": 600,
+        "ood_test": 452
+      },
+      "role_wells": {
+        "train": 17,
+        "validation": 10,
+        "test": 25,
+        "ood_test": 19
+      }
+    }
+  ],
+  "bbbc_files": 75,
+  "bbbc_fields": 25,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_memory": 8585216000,
+  "free_disk_bytes": 47927730176,
+  "new_download_bytes": 0
+}

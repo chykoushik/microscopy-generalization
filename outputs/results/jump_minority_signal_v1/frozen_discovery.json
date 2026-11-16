@@ -1,0 +1,61 @@
+{
+  "primary": 12,
+  "selected": [
+    12,
+    15,
+    54,
+    93,
+    78,
+    21,
+    13,
+    48
+  ],
+  "discovery_treated": [
+    "UL001641:Z03",
+    "UL001641:B03",
+    "UL001641:J46",
+    "UL001641:R46"
+  ],
+  "discovery_controls": [
+    "UL001641:P02",
+    "UL001641:AE04",
+    "UL001641:P04",
+    "UL001641:I04",
+    "UL001641:K04",
+    "UL001641:T04",
+    "UL001641:AB04",
+    "UL001641:J02",
+    "UL001641:S47",
+    "UL001641:Z45",
+    "UL001641:U45",
+    "UL001641:R47",
+    "UL001641:W45",
+    "UL001641:G45",
+    "UL001641:P45",
+    "UL001641:AA45"
+  ],
+  "confirmation_treated": [
+    "UL001641:B46",
+    "UL001641:R03",
+    "UL001641:Z46",
+    "UL000087:B03",
+    "UL000087:B46",
+    "UL000087:J03",
+    "UL000087:J46",
+    "UL000087:R03",
+    "UL000087:R46",
+    "UL000087:Z03",
+    "UL000087:Z46",
+    "UL000081:B03",
+    "UL000081:B46",
+    "UL000081:J03",
+    "UL000081:J46",
+    "UL000081:R46",
+    "UL000081:Z03",
+    "UL000081:Z46"
+  ],
+  "regions_sha256": "a99dd31acb9093b8d45eed30137e8c870fa697e24a7aca58498f4fb855e555de",
+  "split_sha256": "e824309f607e4e0e9de8cc693ed5ed70d590b7f6fdc5b8ec6de354a582b15f07",
+  "config_sha256": "4e25675e29e7d25af9bfb4e9585d9eb65131eb848c8f078b76d9d18cc912f0a5",
+  "note": "Written before loading confirmation embeddings in this experiment; earlier global outcomes were already known."
+}

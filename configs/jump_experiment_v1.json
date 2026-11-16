@@ -1,0 +1,33 @@
+{
+  "seed": 123001,
+  "selection": "Unchanged proposed_split.csv and proposed_site2_images.csv",
+  "cell_budget": "Common budget min(128, minimum retained-well cell count), excluding only extraction failures below 32",
+  "minimum_cells": 32,
+  "preprocessing": "Center and isotropic scale from development-plate reference controls only, equal cells per well",
+  "reference": "128 cells pooled equally from eight plate/side reference wells",
+  "methods": [
+    "mean",
+    "mmd",
+    "sliced_w2",
+    "local_abundance"
+  ],
+  "mmd": "Biased Gaussian MMD squared, median development-reference distance bandwidth",
+  "sliced_w2": "64 fixed random directions, squared W2 with 128 equal mass cells",
+  "local_abundance": "Maximum absolute occupancy difference in 16 development-reference prototype balls, median 10th-percentile neighbor radius",
+  "empirical_flags": "Score exceeds own plate/side calibration empirical 95th percentile; descriptive only, no formal error control",
+  "uncertainty": "2000 well-resampling bootstrap draws of treated-minus-heldout score mean, stratified by side; conditional on fixed references and preprocessing",
+  "mixtures": [
+    0,
+    0.01,
+    0.05,
+    0.1,
+    0.15,
+    0.25,
+    1
+  ],
+  "mixture_pairing": "Each donor paired with deterministic same plate/side heldout background; 128 total cells; rounded treated-cell counts; no independent biological replicate claim",
+  "spatial": "Primary side-local references; alternative adjacent-column reference subsets and nearest-row reference subsets; all remain confounded in column",
+  "claims": "Treatment-associated morphology; no causal inference, biological independence, calibrated significance or novelty",
+  "weighted_mixture_supplement": "Exact treated empirical mass on equal donor/background support budgets, to avoid rounding 1% to zero; added after cell-count QC, before effect scoring. Native 0/100 endpoints must agree.",
+  "post_primary_sensitivity": "Direct same-row adjacent DMSO comparisons added after primary baseline scores; exploratory, no fitting or threshold changes."
+}

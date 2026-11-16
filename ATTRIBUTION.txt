@@ -1,0 +1,15 @@
+Dataset and model attribution
+
+JUMP / Cell Painting Gallery: Chandrasekaran et al., Three million images and morphological profiles of cells treated with matched chemical and genetic perturbations, Nature Methods (2024); Weisbart et al., Cell Painting Gallery, Nature Methods (2024). Source: https://github.com/jump-cellpainting/datasets and https://registry.opendata.aws/cellpainting-gallery/ . Individual asset terms apply.
+
+DeepCellMorpho: Abdelmoula et al., Nature Methods (2026), DOI 10.1038/s41592-026-03270-z. Original architecture source has Apache-2.0 notices; checkpoint and derived embeddings have CC BY-NC-SA 4.0 restrictions. No upstream architecture source, weights or cell embeddings are redistributed here. JUMP derived statistics and figures are research outputs; retain source attribution and applicable noncommercial/share-alike conditions for model-derived material. Licence: https://creativecommons.org/licenses/by-nc-sa/4.0/ .
+
+TNBC NF-kappaB imaging: Image Data Resource study idr0019; original investigators and study metadata at https://idr.openmicroscopy.org/ . TNBC gammaH2AX: original CellH5 assay/source spot-count definitions, with exact source URLs and well mappings in the distributed download ledger; source repository https://github.com/jcboyd/multi-cell-line . Associated raw images are CC BY 4.0; the processed-feature repository has no specified licence. No CellH5 files or original feature tables are redistributed. Attribution and source terms remain applicable to image illustrations. Source dataset terms govern the displayed image panels and any separately acquired data. These image panels are attributed research illustrations, not a new licence for the underlying microscopy collections.
+
+BBBC013: Ilya Ravkin, Broad Bioimage Benchmark Collection, CC BY 3.0. https://bbbc.broadinstitute.org/BBBC013 and https://creativecommons.org/licenses/by/3.0/ .
+
+NViR: original same-well microscopy/ATP release and investigators; original release is documented locally as MIT; obtain its complete licence with any source asset download. No raw NViR image collection is redistributed.
+
+The statistical and model wrappers are local implementations. MMD: Gretton et al., JMLR 13 (2012), 723-773. Random forests and boosting use scikit-learn. U-Net reconstruction uses PyTorch. Selective source-risk selection uses SciPy/HiGHS. Installed dependency distributions retain their own licences; no dependency binaries are vendored. Figure fonts use Matplotlib/DejaVu distribution terms.
+
+No licence has been selected for the project's original source code. Public availability does not replace the copyright owner's permission for reuse.

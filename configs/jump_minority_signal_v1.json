@@ -1,0 +1,39 @@
+{
+  "seed": 126001,
+  "discovery": "UL001641: first two treated wells per side ordered by SHA256(seed|well); original reference DMSO controls only",
+  "confirmation": "All remaining treated wells; original heldout DMSO wells; original calibration and reference roles preserved",
+  "candidates": "Eight deterministic cells per discovery treated well; ball radii at 5/10/20 percentiles of distances to equally weighted discovery-reference control cells",
+  "ranking": "Equal-well treated occupancy minus control occupancy divided by max(control-well SD,0.02); positive enrichment; highest score primary; up to eight regions with membership Jaccard <0.8 to earlier choices",
+  "stability": "Leave-one-discovery-well-out ranking, excluding that well's anchor candidates; report selected-membership Jaccard on fixed discovery support",
+  "preprocessing": "Reuse original development-reference-only frozen center, isotropic scale, bandwidth, directions and control prototype neighborhoods",
+  "budgets": [
+    32,
+    100
+  ],
+  "evaluation_controls": "Same calibration and heldout wells with >=100 cells at both budgets; no confirmation outcomes used to select eligibility",
+  "mixtures": [
+    0,
+    0.01,
+    0.05,
+    0.1,
+    0.15,
+    0.25,
+    1
+  ],
+  "integer": "Exactly N cells without replacement; round(N*f) donor cells; f=1 only if donor has N cells, otherwise record unavailable",
+  "weighted": "Exact empirical treated mass; min(N,donor cell count) donor support cells and N background support cells; not literal integer mixtures",
+  "backgrounds": "Unique original heldout controls per plate/side assigned to confirmation donors by deterministic hash; no well reused across pairs",
+  "thresholds": "Per plate/side empirical 95th percentile of eligible original calibration controls, recalculated identically for all methods and budgets; 80/90 percentile sensitivity only",
+  "methods": [
+    "mean",
+    "mmd",
+    "sliced_w2",
+    "local_abundance",
+    "region_primary",
+    "region_max8"
+  ],
+  "sampling": "20 deterministic without-replacement cell samples for each integer condition; repeats are conditional sampling diagnostics, not biological replicates",
+  "uncertainty": "2000 plate-stratified bootstrap resamples of physical wells or unique donor/background pairs; conditional on frozen regions and references",
+  "alignment_diagnostic": "Translate each plate/side by its reference-control mean minus the development plate same-side reference mean; no treatment-informed fitting; re-evaluate frozen neighborhoods",
+  "limitations": "Exploratory follow-up using previously evaluated wells; well-disjoint current fitting, not prospectively blinded or independent preparations; repeated treatment columns remain spatially confounded"
+}

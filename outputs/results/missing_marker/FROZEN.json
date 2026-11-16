@@ -1,0 +1,10 @@
+{
+  "TNBC": {
+    "strongest_baseline": "marker_regression",
+    "selected": "count_tail"
+  },
+  "BBBC013": {
+    "strongest_baseline": "linear",
+    "selected": "ratio_tail"
+  }
+}

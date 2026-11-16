@@ -1,0 +1,40 @@
+{
+  "status": "Frozen before residual-risk execution",
+  "neighbor_grid": [
+    5,
+    15
+  ],
+  "bandwidth_scale_grid": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "normalization": "Training-column mean/std only;std floor1e-6; no normalization search",
+  "risk_objective": "Equal-study mean absolute error between risk estimate and independently predicted absolute ATP error",
+  "predictor_grid": [
+    0.1,
+    10.0,
+    1000.0
+  ],
+  "primary": "A_raw",
+  "secondary": [
+    "B_control_images",
+    "CORAL"
+  ],
+  "coverage": [
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "selection": "ceil(c*n) per study; unchanged seed2301 SHA tie convention",
+  "failure_event": "historical frozen abs ATP error>250nM; operational diagnostic, no calibrated assay tolerance",
+  "hyperparameter_discrepancy": "historical supersedes historical fixed5/defaultbandwidth with six-setting training-only grid; default still included; record uniform validation scores and first-grid tie selection",
+  "nested_protocol": "Outer test O excluded. Risk validation V excluded from all risk-training residual models and their alpha tuning. Each risk-training residual study R excluded from its predictor fitting/tuning. Final risk uses five outer-training studies OOF residuals; risk validation trains on four-study pools; residual predictors have four or three studies respectively.",
+  "CORAL": "Same covariance+I fixed historical adaptation. Predictor alpha selected by raw source-only grouped validation, inherited as in historical. Each residual query study supplies only its unlabelled image covariance; risk geometry recomputed for its target study. No target ATP/control ATP fitted.",
+  "fallback": "Abort if fewer than3 residual pool studies, rather than in-sample residuals; not expected with six groups",
+  "negative": "Training OOF mean-risk constant and1000 within-study permuted new risk scores; no biological CI",
+  "success": "historical stricter descriptive target:>=10% macro selective gain versus support,>=4/6 group gains and no group>10% harm; decision distinguishes small or subgroup-inconsistent differences",
+  "resources": "CPU1, per-study checkpoints,<=120s/fold,>=20GiBfree,stopGPU sensor>=60C or unexpected shutdown; no data/model/package download"
+}

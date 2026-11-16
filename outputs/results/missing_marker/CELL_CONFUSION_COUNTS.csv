@@ -1,0 +1,19 @@
+dataset,method,wells,cells,positive_cells,TP,FP,FN,threshold,interpretation
+TNBC,MLP,46,3058,128,2,2,126,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,MMSL,46,3058,128,15,16,113,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,class_balanced,46,3058,128,1,1,127,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,count_tail,46,3058,128,17,7,111,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,gradient_boosting,46,3058,128,13,16,115,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,group_DRO,46,3058,128,2,1,126,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,linear,46,3058,128,14,9,114,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,logistic,46,3058,128,15,4,113,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,marker_regression,46,3058,128,12,6,116,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,masked_MLP,46,3058,128,1,0,127,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,metric_learning,46,3058,128,3,0,125,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,no_consistency,46,3058,128,10,8,118,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,no_lattice,46,3058,128,18,16,110,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,no_mask,46,3058,128,10,9,118,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,no_prototypes,46,3058,128,0,0,128,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,no_uncertainty,46,3058,128,15,16,113,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,prototype,46,3058,128,11,7,117,0.5,descriptive cell counts; cells are not independent replicates
+TNBC,random_forest,46,3058,128,6,10,122,0.5,descriptive cell counts; cells are not independent replicates

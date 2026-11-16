@@ -1,0 +1,45 @@
+{
+  "encoder": {
+    "name": "DeepCellMorpho DINOv2 ViT-S/16",
+    "repository": "johnsonandjohnson/DeepCellMorpho",
+    "commit": "db9052b2131ed4e22cd1aff79c97d12842c28dd5",
+    "checkpoint": "models/checkpoints/pre_trained_DINOv2_ViT_S16.pth",
+    "checkpoint_url": "https://media.githubusercontent.com/media/johnsonandjohnson/DeepCellMorpho/db9052b2131ed4e22cd1aff79c97d12842c28dd5/models/weights/pre_trained_DINOv2_ViT_S16.pth",
+    "checkpoint_sha256": "778418d417ff8a32f1c99fdbb41774c77701edf782bf19be2e29d1f01f98dc11",
+    "checkpoint_bytes": 178086278,
+    "license": "CC BY-NC-SA 4.0; research only; code Apache2.0",
+    "source": "models/deepcellmorpho_source",
+    "channel_order": [
+      "DAPI",
+      "Tubulin",
+      "Actin",
+      "zero",
+      "zero"
+    ],
+    "normalization": "Each image channel percentile clipping0.01/99.9 then minmax[0,1]; constant channels zero; two zero padding channels as author BBBC adaptation",
+    "crop_pixels": 128,
+    "input_pixels": 128,
+    "training_global_crop_pixels": 480,
+    "output": "Final normalized CLS token",
+    "dimensions": 384,
+    "precision": "float32",
+    "batch_size": 16,
+    "resize": false,
+    "adaptation": "Native128 cell-context crops; matches author local crop size; positional interpolation; not original full-FoV evaluation"
+  },
+  "segmentation": {
+    "sigma": 1.2,
+    "background_sigma": 20,
+    "threshold": "Otsu on Gaussian-smoothed DAPI after broad background subtraction",
+    "min_area": 35,
+    "max_area": 1500,
+    "min_distance": 7,
+    "hole_area": 32,
+    "min_solidity": 0.75,
+    "min_crop_margin": 64,
+    "secondary_radius": 28,
+    "method": "Distance-watershed nuclei; seeded intensity-gradient approximate cell territory; nucleus-centered crops",
+    "max_cells_per_site": 256,
+    "selection": "Seeded uniform eligible cells; label-independent; reject crop truncation"
+  }
+}
