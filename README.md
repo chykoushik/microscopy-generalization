@@ -1,6 +1,6 @@
 # Microscopy generalization
 
-Research code, computational results, and Python-generated figures for **When Do Microscopy Models Generalize? Evaluating Morphological Evidence, Fluorescence Marker Prediction, and Robustness**.
+Research code, computational results, and Python-generated figures for **Microscopy generalization**.
 
 The experiments compare established population statistics, marker classifiers, paired fluorescence reconstruction, robustness baselines, and selective ATP evaluation. Wells are the experimental units; cells, crops, sampling repeats, seeds, and corruption views remain nested observations. Acquisition plates and historical study labels do not establish independent biological preparations.
 
